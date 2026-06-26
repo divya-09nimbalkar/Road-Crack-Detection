@@ -2,52 +2,80 @@
 ---
 
 ```markdown
-# 🚧 Road Crack Detection
+#  Road Crack Detection
 
 A computer vision project for detecting cracks in road surfaces using **PyTorch** and **ResNet18**.  
 This repository demonstrates an end‑to‑end ML pipeline: data preparation, model training, evaluation, testing, and interactive exploration via Jupyter notebooks.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```
 Road_Crack_Detection/
+
 │
+
 ├── .venv/                 # Virtual environment
+
 ├── data/
+
+
 │   ├── raw/               # Raw images (dummy or real dataset)
+
 │   └── processed/         # Preprocessed data
-│
-├── docs/                  # Documentation
-│
+
 ├── models/
+
 │   └── resnet18_crack.pth # Saved model weights
+
+
 │
+
 ├── notebooks/
+
 │   └── exploration.ipynb  # Interactive notebook for inference & visualization
+
 │
+
 ├── src/
+
 │   ├── __init__.py
+
 │   ├── data_pipeline.py   # Dataset + DataLoader
+
 │   ├── evaluate.py        # Model loading + evaluation functions
+
 │   ├── main.py            # Entry point for training & evaluation
+
 │   ├── model.py           # Model architecture (ResNet18 customization)
+
 │   ├── train.py           # Training loop with accuracy tracking
+
 │   └── utils.py           # Helper utilities
+
 │
+
 ├── tests/
+
 │   ├── test_data_pipeline.py
+
 │   ├── test_model.py
+
 │   └── test_utils.py
+
 │
+
 ├── .gitignore
+
 ├── README.md              # Project documentation
+
 └── requirements.txt       # Python dependencies
+
 ```
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository:
    ```bash
@@ -69,7 +97,7 @@ Road_Crack_Detection/
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Train & Evaluate
 Run the pipeline:
@@ -101,14 +129,14 @@ Features:
 
 ---
 
-## 🧪 Example Output
+##  Example Output
 Training log:
 ```
 Epoch 1/2
 Loss: 0.4487 | Accuracy: 0.70
 Epoch 2/2
 Loss: 0.1917 | Accuracy: 0.80
-💾 Model saved to models/resnet18_crack.pth
+ Model saved to models/resnet18_crack.pth
 ```
 
 Notebook prediction:
@@ -118,7 +146,7 @@ data/raw/road_0.png → Crack
 
 ---
 
-## 📈 Next Steps
+##  Next Steps
 - Integrate real datasets (e.g., SDNET2018, CrackForest)
 - Add data augmentation (resize, normalize, random flips)
 - Track precision, recall, F1‑score
@@ -127,7 +155,7 @@ data/raw/road_0.png → Crack
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Python 3.11
 - PyTorch & TorchVision
 - OpenCV
@@ -137,7 +165,7 @@ data/raw/road_0.png → Crack
 
 ---
 
-## 👩‍💻 Author
+##  Author
 Developed by **Divya**  
 AI/ML Developer | Full‑stack Python | Computer Vision Enthusiast
 ```
