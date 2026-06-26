@@ -8,9 +8,9 @@ A computer vision project for detecting cracks in road surfaces using **PyTorch*
 This repository demonstrates an end‑to‑end ML pipeline: data preparation, model training, evaluation, testing, and interactive exploration via Jupyter notebooks.
 
 ---
-
-##  Project Structure
 ```
+##  Project Structure
+
 Road_Crack_Detection/
 
 │
@@ -170,4 +170,3 @@ Developed by **Divya**
 AI/ML Developer | Full‑stack Python | Computer Vision Enthusiast
 ```
 
----
